@@ -1,0 +1,31 @@
+{
+  "name": "railway-streaming-test",
+  "version": "1.0.0",
+  "description": "demo for Railway to figure out why it won't stream",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donholly/railway-streaming-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donholly/railway-streaming-test/issues"
+  },
+  "homepage": "https://github.com/donholly/railway-streaming-test#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.52.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
