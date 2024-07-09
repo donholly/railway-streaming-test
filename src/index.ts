@@ -14,6 +14,10 @@ const app = express();
 
 app.use(express.text());
 
+app.get("/", (req, res) => {
+  res.send("Hello, world!");
+});
+
 // This endpoint can be called with:
 //
 //   curl 127.0.0.1:8080 -N -X POST -H 'Content-Type: text/plain' \
